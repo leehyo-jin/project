@@ -27,15 +27,3 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 
-col1, col2, col3=st.columns([4,4,4])
-with col1:
-    st.markdown("<h3 style='text-align: center; font-size: 20px;'>Gender</h3>", unsafe_allow_html=True)
-    st.image('a2.jpg')
-
-with col2:
-    st.markdown("<h3 style='text-align: center; font-size: 20px;'>Age</h3>", unsafe_allow_html=True)
-    st.image('a3.jpg')
-
-with col3:
-    st.markdown("<h3 style='text-align: center; font-size: 20px;'>Weight</h3>", unsafe_allow_html=True)
-    st.image('a4.jpg')
